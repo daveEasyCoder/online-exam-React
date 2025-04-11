@@ -109,7 +109,7 @@ const About = ({isDisplayBtn}) => {
           <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-3xl p-12 shadow-xl">
             <div className="flex flex-col items-center">
               <img
-                src="../src/assets/pic.png"
+                src="pic.png"
                 alt="Developer Profile"
                 className="w-32 h-32 rounded-full object-cover border-4 border-white shadow-xl mb-6"
               />

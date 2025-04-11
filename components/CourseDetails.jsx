@@ -40,7 +40,7 @@ const CourseDetails = () => {
             <div className="flex flex-col lg:flex-row items-start gap-2">
               <img
                 className="object-cover rounded-md w-[80%] lg:w-2/3"
-                src={`../src/assets/${course_details.image}`}
+                src={`${import.meta.env.BASE_URL}${course_details.image}`}
                 alt="IMG"
               />
              <div className="border-1 border-gray-300 w-[80%] lg:w-1/3">
