@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import GlobalContextProvider from "../components/GlobalContext/Context.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/online-exam-React">
       <GlobalContextProvider>
          <App />
       </GlobalContextProvider>
