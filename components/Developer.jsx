@@ -3,7 +3,7 @@ import About from './About'
 import WelcomeHeader from './WelcomeHeader'
 const Developer = () => {
   return (
-    <div className='-ml-45 -mt-18'>
+    <div className='sm:-ml-45 -mt-18'>
         <WelcomeHeader />
        <About isDisplayBtn = {true} />
     </div>

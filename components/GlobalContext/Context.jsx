@@ -18,6 +18,7 @@ const GlobalContextProvider = ({children}) => {
     const [signupError,setSignupError] = useState('')
 
     const [showSidebar, setShowSidebar] = useState(false)
+    const [showHeader,setShowHeader] = useState(false)
 
     const [user,setUser]  = useState(null)
 
@@ -166,6 +167,8 @@ const GlobalContextProvider = ({children}) => {
         changePasswordError,
         showSidebar,
         setShowSidebar,
+        showHeader,
+        setShowHeader
 
     }}
      >

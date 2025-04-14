@@ -82,7 +82,7 @@ body{
   }
 }
 .welcome-page{
-  background-image: linear-gradient(rgba(255, 255, 255, 0.94),rgba(255, 255, 255, 0.94)),url('wallpaper.jpg');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.94),rgba(255, 255, 255, 0.94)),url('../public/wallpaper.jpg');
   height: 100vh;
   width: 100%;
   background-position: center;

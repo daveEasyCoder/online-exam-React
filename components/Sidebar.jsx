@@ -1,8 +1,6 @@
-import React,{useState} from 'react'
+
 import { NavLink } from 'react-router-dom'
-import { FaHome } from "react-icons/fa";        
-import { MdLibraryBooks } from "react-icons/md"; 
-import { FiSettings } from "react-icons/fi";   
+import { FaHome } from "react-icons/fa";         
 import { FaGraduationCap } from "react-icons/fa";  
 import { FaInfoCircle } from "react-icons/fa"; 
 import { useGlobalContext } from './GlobalContext/Context';
@@ -25,7 +23,7 @@ const Sidebar = () => {
                 <ul className='flex flex-col  mt-3'>
                     {
                         navbar.map((item) => (
-                            <li className='px-3 text-gray-600 text-sm  cursor-pointer' key={item.name}>
+                            <li onClick={() => setShowSidebar(false)} className='px-3 text-gray-600 text-sm  cursor-pointer' key={item.name}>
                                 <NavLink style={({isActive}) => ({background:isActive ? 'rgba(120,120,120,0.1)' : ''})} className="flex items-center gap-1.5 py-2.5 px-2 rounded-sm hover:bg-gray-100" to={`/${item.to}`}>
                                     {item.icon}
                                     <span>  {item.name}</span> 

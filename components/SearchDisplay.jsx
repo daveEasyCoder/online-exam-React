@@ -9,7 +9,7 @@ const SearchDisplay = () => {
      
     
   return (
-    <div className='ml-45 pt-20'>
+    <div className='sm:ml-45 pl-2 pt-20'>
         
             {
              results && results.length ? 

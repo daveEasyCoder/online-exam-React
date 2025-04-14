@@ -39,11 +39,11 @@ const CourseDetails = () => {
           <div>
             <div className="flex flex-col lg:flex-row items-start gap-2">
               <img
-                className="object-cover rounded-md w-[80%] lg:w-2/3"
+                className="object-cover rounded-md w-[100%] lg:w-2/3"
                 src={`${import.meta.env.BASE_URL}${course_details.image}`}
                 alt="IMG"
               />
-             <div className="border-1 border-gray-300 w-[80%] lg:w-1/3">
+             <div className="border-1 border-gray-300 w-[100%] lg:w-1/3">
                 <div className="h-8 bg-gray-200"></div>
                <p className="text-sm leading-6 tracking-wide px-2 py-3">{course_details.desc}</p>
              </div>
